@@ -1,0 +1,91 @@
+/* Reset de estilos y configuración global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: black; /* Letras en negro */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Estilos para el header */
+header {
+    background-color: #343a40; /* Fondo gris oscuro */
+    padding: 20px 0;
+}
+
+.logo img {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.enlaces {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+
+.enlaces li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.enlaces li a {
+    color: white;
+    text-decoration: none;
+}
+
+.enlaces li a:hover {
+    color: #ffc107;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    margin-bottom: 20px;
+    background-color: #1a1a1a; /* Fondo negro */
+    color: white; /* Texto blanco */
+    border-radius: 10px;
+    border-style: dotted;
+    padding: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-title:nth-of-type(1) {
+    color: #000000; /* Título verde */
+}
+
+.card-title:nth-of-type(2) {
+    color: #000000; /* Título rosa */
+}
+
+.card-title:nth-of-type(3) {
+    color: rgb(0, 0, 0); /* Título blanco */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: black; /* Letras en negro */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #343a40; /* Fondo gris oscuro */
+    color: white; /* Texto blanco */
+    padding: 20px 0;
+    text-align: center;
+}
+
